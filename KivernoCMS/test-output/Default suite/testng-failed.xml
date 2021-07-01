@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Kiverno_cms.ExtentReportsClass">
+        <methods>
+          <include name="Then_User_Fill_ClientName_Upload_Image_Add_Brandtherapy_And_Role"/>
+          <include name="Then_User_click_On_AddCountry_And_Upload_FlagImage_ActiveCheckBox_And_Click_On_Save"/>
+          <include name="endReport"/>
+          <include name="Browser_setup"/>
+          <include name="CollectCurrentRunningTestCases"/>
+          <include name="User_Doing_Login_With_Valid_Credencials"/>
+          <include name="User_Clicks_On_UserManagement_Tab"/>
+          <include name="User_Clicks_On_ClientConfiguration_Tab"/>
+          <include name="getResult"/>
+          <include name="Launching_Browser"/>
+          <include name="CompetencyConfiguration"/>
+          <include name="close"/>
+          <include name="Creating_Html_report_And_LoOding_xml_File"/>
+        </methods>
+      </class> <!-- Kiverno_cms.ExtentReportsClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
